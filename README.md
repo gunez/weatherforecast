@@ -16,6 +16,8 @@ All gradle commands should be executed under root folder of the project, which c
 
 **To run project:** `gradle bootRun`
 
+The project will be served in `http://localhost:8080/` with default configurations.
+
 **Note:** Supported gradle version is gradle-4.10.2. Project is developed with this version and it may not work 
 properly with gradle version > 5.
 
