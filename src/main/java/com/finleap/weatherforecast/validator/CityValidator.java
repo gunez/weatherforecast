@@ -12,6 +12,6 @@ public class CityValidator implements ConstraintValidator<ValidCity, String> {
         Pattern pattern = Pattern.compile("^[a-zA-Z,]*$");
         Matcher matcher = pattern.matcher(value);
 
-        return matcher.matches() && value.length() < 50;
+        return matcher.matches() && value.length() <= 128;
     }
 }

@@ -12,6 +12,8 @@ All gradle commands should be executed under root folder of the project, which c
 
 **To build project:** `gradle build`
 
+**To run tests:** `gradle test`
+
 **To run project:** `gradle bootRun`
 
 **Note:** Supported gradle version is gradle-4.10.2. Project is developed with this version and it may not work 
@@ -59,13 +61,10 @@ The API exposes `/data` endpoint to retrieve estimated average temperature value
 | Code | Description |
 | --- |--- |
 | 200 | OK |
-| | |
 | 400 | The request will return BAD REQUEST in case of invalid input |
-| | |
 | 404 | The request will return NOT FOUND in cases below. |
 | | * There is no city with given name. |
 | | * The resource Open Weather Map API has internal problem and cannot return proper response. |
-| | |
 | 500 | Internal Server Error |
 
 ###### Response Parameters
@@ -74,8 +73,7 @@ The API exposes `/data` endpoint to retrieve estimated average temperature value
 | --- | --- |
 | cityName | Name of the city, which is given in the request. |
 | timeZone | Time zone of the temperature values, which calculations based. |
-| days | List of average temperature values for the next 3 days. |
-| | This list cannot be larger than 3. It should contain 3 elements regarding the next 3 days. |
+| days | List of average temperature values for the next 3 days. This list cannot be larger than 3. It should contain 3 elements regarding the next 3 days. |
 | date | Date of average temperature values. |
 | dailyAvgTemperature | Average temperature value for day times between 06:00-18:00 |
 | nightlyAvgTemperature | Average temperature value for night times between 18:00-06:00 |
@@ -273,7 +271,14 @@ values are returned as integer but all calculations are done with double.
 Caching is done via Spring cachable annotation. If a city is queried before in current day, the values are returned 
 from cache. Cache is cleaned every day in 00:00.
  
-Cache cleaning is done in CacheCleanerConfig by using scheduler. 
+Cache cleaning is done in CacheCleanerConfig by using scheduler.
+
+### Validation 
+
+Validations of an input city name is done by validation annotation. It is created under validator package. This 
+CityValidator checks the name of the city if it other then letter or comma, it invalidates the input. In addition to 
+this, city name cannot have more than 128 character. In case of having an input more than 128 characters, the input will 
+be invalidated again.
 
 ## Notes
 

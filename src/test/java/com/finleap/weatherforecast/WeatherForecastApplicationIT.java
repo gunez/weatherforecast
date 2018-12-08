@@ -41,7 +41,7 @@ class WeatherForecastApplicationIT {
     void setUp() {
         StringBuilder tooLongCityName = new StringBuilder();
 
-        for (int i = 0; i < 51; i++) {
+        for (int i = 0; i <= 128; i++) {
             tooLongCityName.append("a");
         }
 
