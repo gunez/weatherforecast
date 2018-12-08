@@ -6,7 +6,7 @@ Finleap java case study
 
 ### Compile & Run Project
 
-All gradle commands should be executed under root folder of the project, which contains _build.gradle_ file.
+All gradle commands should be executed under root folder, which contains _build.gradle_ file, of the project.
 
 **To clean project:** `gradle clean`
 
