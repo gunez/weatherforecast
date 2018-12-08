@@ -1,0 +1,21 @@
+{
+  "cityName": "London",
+  "timeZone": "UTC",
+  "days": [
+    {
+      "date": "2018-12-07",
+      "dailyAvgTemperature": 10,
+      "nightlyAvgTemperature": 8
+    },
+    {
+      "date": "2018-12-08",
+      "dailyAvgTemperature": 9,
+      "nightlyAvgTemperature": 10
+    },
+    {
+      "date": "2018-12-09",
+      "dailyAvgTemperature": 9,
+      "nightlyAvgTemperature": 7
+    }
+  ]
+}

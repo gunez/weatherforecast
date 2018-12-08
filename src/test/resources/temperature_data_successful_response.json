@@ -1,0 +1,207 @@
+{
+  "name": "London",
+  "zoneId": "UTC",
+  "instant": "2018-12-06T21:56:52.927Z",
+  "temperatures": [
+    {
+      "localDate": "2018-12-07",
+      "localTime": "00:00",
+      "temp": 12.55
+    },
+    {
+      "localDate": "2018-12-07",
+      "localTime": "03:00",
+      "temp": 12.68
+    },
+    {
+      "localDate": "2018-12-07",
+      "localTime": "06:00",
+      "temp": 12.19
+    },
+    {
+      "localDate": "2018-12-07",
+      "localTime": "09:00",
+      "temp": 11.92
+    },
+    {
+      "localDate": "2018-12-07",
+      "localTime": "12:00",
+      "temp": 8.35
+    },
+    {
+      "localDate": "2018-12-07",
+      "localTime": "15:00",
+      "temp": 7.74
+    },
+    {
+      "localDate": "2018-12-07",
+      "localTime": "18:00",
+      "temp": 6.71
+    },
+    {
+      "localDate": "2018-12-07",
+      "localTime": "21:00",
+      "temp": 7.12
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "00:00",
+      "temp": 8.01
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "03:00",
+      "temp": 8.29
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "06:00",
+      "temp": 8.23
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "09:00",
+      "temp": 8.56
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "12:00",
+      "temp": 9.68
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "15:00",
+      "temp": 10.6
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "18:00",
+      "temp": 11.71
+    },
+    {
+      "localDate": "2018-12-08",
+      "localTime": "21:00",
+      "temp": 10.14
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "00:00",
+      "temp": 8.34
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "03:00",
+      "temp": 7.9
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "06:00",
+      "temp": 8.39
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "09:00",
+      "temp": 8.63
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "12:00",
+      "temp": 9.41
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "15:00",
+      "temp": 9.61
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "18:00",
+      "temp": 8.02
+    },
+    {
+      "localDate": "2018-12-09",
+      "localTime": "21:00",
+      "temp": 7.98
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "00:00",
+      "temp": 7.45
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "03:00",
+      "temp": 6.09
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "06:00",
+      "temp": 6.24
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "09:00",
+      "temp": 6.04
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "12:00",
+      "temp": 8.54
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "15:00",
+      "temp": 8.58
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "18:00",
+      "temp": 7.38
+    },
+    {
+      "localDate": "2018-12-10",
+      "localTime": "21:00",
+      "temp": 8.23
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "00:00",
+      "temp": 9.35
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "03:00",
+      "temp": 9.91
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "06:00",
+      "temp": 10.05
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "09:00",
+      "temp": 10.04
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "12:00",
+      "temp": 10.97
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "15:00",
+      "temp": 11.17
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "18:00",
+      "temp": 8.77
+    },
+    {
+      "localDate": "2018-12-11",
+      "localTime": "21:00",
+      "temp": 7.8
+    }
+  ]
+}
